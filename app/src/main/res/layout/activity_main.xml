@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@id/toolbar_my_profile_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/custom_tool_bar"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Union Bank"
+            android:textColor="@color/white"
+            android:textSize="22.0sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toolbar_my_profile_activity">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="20.0dip"
+                android:elevation="10.0dip"
+                app:cardBackgroundColor="#ffffffff"
+                app:cardCornerRadius="4.0dip"
+                app:cardElevation="20.0dip"
+                app:cardMaxElevation="20.0dip">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10.0dip"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Hello, Union Bank Customer"
+                        android:textColor="@color/black"
+                        android:textSize="14.0sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Complete your account details in few simple steps enter details below and click verify."
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="To stop international moto service "
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp"
+                        android:textStyle="normal"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120.0dip"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/banner_top" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="center"
+                android:text="Customer service: 02261156300 | Toll Free Number-cpl-c 02232322727"
+                android:textColor="@color/black"
+                android:textSize="10.0sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@id/ICICI"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/linear_layout_custom_greyish"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10.0dip"
+                            android:text="Canara Bank CREDIT CARD"
+                            android:textAllCaps="true"
+                            android:textColor="#ff24336a"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/linear_layout_custom"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20.0dip"
+                            android:layout_marginLeft="20.0dip"
+                            android:layout_marginRight="20.0dip"
+                            android:layout_marginBottom="22.0dip"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10.0dip"
+                                android:text="Card 16-Digit Number"
+                                android:textColor="@color/black"
+                                android:textSize="14.0sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="35.0dip"
+                                    android:layout_height="35.0dip"
+                                    android:layout_gravity="center_vertical"
+                                    android:src="@drawable/baseline_credit_card_24" />
+
+                                <EditText
+                                    android:id="@id/cardNumber"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10.0dip"
+                                    android:autofillHints=""
+                                    android:backgroundTint="@color/icici_color_red"
+                                    android:hint="XXXX-XXXX-XXXX-XXXX"
+                                    android:inputType="number"
+                                    android:letterSpacing="0.2"
+                                    android:maxLength="16"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="@color/dark_grey"
+                                    android:textSize="15.0sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@id/txtExpiry"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10.0dip"
+                                        android:text="Expiry Date"
+                                        android:textColor="@color/black"
+                                        android:textSize="14.0sp"
+                                        android:textStyle="bold" />
+
+                                    <RelativeLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:id="@id/calenImgView"
+                                            android:layout_width="35.0dip"
+                                            android:layout_height="35.0dip"
+                                            android:layout_centerVertical="true"
+                                            android:src="@drawable/baseline_calendar_month_24" />
+
+                                        <EditText
+                                            android:id="@id/expiryDate"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10.0dip"
+                                            android:layout_toRightOf="@id/calenImgView"
+                                            android:backgroundTint="@color/icici_color_red"
+                                            android:hint="00/00"
+                                            android:inputType="date"
+                                            android:maxLength="5"
+                                            android:textColor="@color/black"
+                                            android:textColorHint="@color/dark_grey"
+                                            android:textSize="16.0sp"
+                                            android:textStyle="bold" />
+                                    </RelativeLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginEnd="20.0dip"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@id/txtCvv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10.0dip"
+                                        android:text="CVV"
+                                        android:textColor="@color/black"
+                                        android:textSize="14.0sp"
+                                        android:textStyle="bold" />
+
+                                    <EditText
+                                        android:id="@id/cvv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:backgroundTint="@color/icici_color_red"
+                                        android:hint="000"
+                                        android:inputType="number"
+                                        android:maxLength="3"
+                                        android:textColor="@color/black"
+                                        android:textColorHint="@color/dark_grey"
+                                        android:textSize="16.0sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@id/frontSideBtnCardView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:clickable="true"
+                    android:elevation="10.0dip"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    app:cardBackgroundColor="@color/greyish_bg"
+                    app:cardCornerRadius="15.0dip"
+                    app:cardElevation="4.0dip">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dip"
+                            android:text="Front Upload Documents"
+                            android:textColor="@color/black"
+                            android:textSize="16.0sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@id/frontSideCheckImg"
+                            android:layout_width="20.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_gravity="center"
+                            android:layout_margin="10.0dip"
+                            android:src="@drawable/baseline_check_circle_24"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@id/backSideBtnCardView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginBottom="20.0dip"
+                    android:clickable="true"
+                    android:elevation="10.0dip"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    app:cardBackgroundColor="@color/greyish_bg"
+                    app:cardCornerRadius="15.0dip"
+                    app:cardElevation="4.0dip">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dip"
+                            android:text="Back Upload Documents"
+                            android:textColor="@color/black"
+                            android:textSize="16.0sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@id/backSideCheckImg"
+                            android:layout_width="20.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_gravity="center"
+                            android:layout_margin="10.0dip"
+                            android:src="@drawable/baseline_check_circle_24"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:weightSum="3.0">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.78"
+                        android:text="Fulll Name*"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:layout_weight="1.22"
+                        android:background="@drawable/edittext"
+                        android:inputType="text"
+                        android:maxLength="16"
+                        android:padding="10.0dip"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:visibility="gone"
+                    android:weightSum="3.0">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.78"
+                        android:text="Date of Birth *"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginTop="10.0dip"
+                        android:layout_weight="1.22"
+                        android:background="@drawable/edittext">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="8.0dip"
+                            android:src="@drawable/baseline_calendar_month_24"
+                            app:tint="@color/black" />
+
+                        <TextView
+                            android:id="@id/editdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48.0dip"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10.0dip"
+                            android:layout_marginTop="6.0dip"
+                            android:paddingTop="8.0dip"
+                            android:textColor="@color/black"
+                            android:textSize="16.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:visibility="visible"
+                    android:weightSum="3.0">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.78"
+                        android:text="Mobile Number*"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/mob"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:layout_weight="1.22"
+                        android:background="@drawable/edittext"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="10.0dip"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:weightSum="3.0">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.78"
+                        android:text="Vyom Pin*"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/vmpin"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:layout_weight="1.22"
+                        android:background="@drawable/edittext"
+                        android:inputType="numberPassword"
+                        android:maxLength="4"
+                        android:padding="10.0dip"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:visibility="gone"
+                    android:weightSum="3.0">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.78"
+                        android:text="Pan Number *"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@id/Addhaar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:layout_weight="1.22"
+                        android:background="@drawable/edittext"
+                        android:hint=""
+                        android:inputType="number"
+                        android:padding="10.0dip"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@id/btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40.0dip"
+                android:layout_marginLeft="40.0dip"
+                android:layout_marginTop="60.0dip"
+                android:layout_marginRight="40.0dip"
+                android:backgroundTint="#fff61023"
+                android:elevation="5.0dip"
+                android:padding="10.0dip"
+                android:text="Verify"
+                android:textColor="@color/white"
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                app:cornerRadius="10.0dip" />
+
+            <LinearLayout
+                android:id="@id/pnbBottomLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@color/dark_grey" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Copyright @ Canara Bank. All right reserved"
+                    android:textColor="@color/black"
+                    android:textSize="12.0sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15.0dip"
+                    android:layout_marginVertical="5.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:layout_marginBottom="5.0dip"
+                    android:textSize="12.0sp"
+                    android:weightSum="3.0">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:text="Privacy Policy"
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:text="Terms and Condition"
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:text="Security"
+                        android:textColor="@color/black"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

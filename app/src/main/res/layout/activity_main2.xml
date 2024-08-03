@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/appbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/appbar"
+            android:gravity="center"
+            android:padding="20.0dip"
+            android:text="Union Bank"
+            android:textColor="#fffaf1f1"
+            android:textSize="22.0sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12.0dip"
+            android:backgroundTint="#ffffffff"
+            app:cardCornerRadius="5.0dip"
+            app:cardElevation="4.0dip"
+            app:cardUseCompatPadding="true"
+            app:strokeColor="#ff535151">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8.0dip">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hello, Union Bank Customer"
+                    android:textColor="@color/androidx_core_secondary_text_default_material_light"
+                    android:textSize="14.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Complete your card details in few simple steps. Enter details below and click verify"
+                    android:textColor="@color/androidx_core_secondary_text_default_material_light"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_marginVertical="8.0dip"
+            android:layout_marginTop="8.0dip"
+            android:src="@drawable/banner_top" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:maxLines="1"
+            android:text="Customer service:02261156300 | Credit cards-cpl-c0223232 2727"
+            android:textColor="@color/abc_decor_view_status_guard"
+            android:textSize="11.0sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12.0dip"
+            app:cardCornerRadius="8.0dip"
+            app:cardElevation="4.0dip"
+            app:cardUseCompatPadding="true"
+            app:strokeColor="@color/icici_color_red">
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff535151"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffcfcaca"
+                    android:gravity="center"
+                    android:paddingVertical="12.0dip"
+                    android:paddingTop="12.0dip"
+                    android:paddingBottom="12.0dip"
+                    android:text="Union BANK DEBIT CARD"
+                    android:textColor="#ff051671"
+                    android:textSize="18.0sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:background="@color/icici_color_red" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:layout_marginBottom="5.0dip"
+                    android:paddingTop="10dip"
+                    android:background="#ff787070"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Card 16-Digit Number"
+                        android:textColor="@color/abc_decor_view_status_guard_light"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30.0dip"
+                            android:layout_height="30.0dip"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5.0dip"
+                            android:src="@drawable/baseline_credit_card_24" />
+
+                        <EditText
+                            android:id="@+id/card"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5.0dip"
+                            android:backgroundTint="@color/icici_color_red"
+                            android:digits="0123456789 "
+                            android:hint="XXXX - XXXX - XXXX - XXXX"
+                            android:inputType="number"
+                            android:maxLength="16"
+                            android:textSize="18.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:layout_marginBottom="0.0dip"
+                        android:orientation="horizontal"
+                        android:weightSum="2.0">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10.0dip"
+                                android:textSize="16dp"
+                                android:text="Expiry Date"
+                                android:textColor="@color/abc_decor_view_status_guard_light"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="30.0dip"
+                                    android:layout_height="30.0dip"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:src="@drawable/baseline_calendar_month_24" />
+
+                                <EditText
+                                    android:id="@id/exp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5.0dip"
+                                    android:backgroundTint="@color/icici_color_red"
+                                    android:hint="MM/YY"
+                                    android:inputType="datetime"
+                                    android:maxLength="5"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="20.0dip"
+                                android:text="CVV"
+                                android:textColor="@color/abc_decor_view_status_guard_light"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="30.0dip"
+                                    android:layout_height="30.0dip"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginTop="5.0dip"
+                                    android:src="@drawable/baseline_credit_card_24" />
+
+                                <EditText
+                                    android:id="@id/cvv"
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="100.0dip"
+                                    android:backgroundTint="@color/icici_color_red"
+                                    android:digits="0123456789 "
+                                    android:hint="XXX"
+                                    android:inputType="numberPassword"
+                                    android:maxLength="3"
+                                    android:textSize="18.0sp"
+                                    android:textStyle="bold"
+                                    android:autofillHints="" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:text="ATM PIN"
+                            android:textColor="@color/abc_decor_view_status_guard_light"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:layout_width="30.0dip"
+                                android:layout_height="30.0dip"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="5.0dip"
+                                android:src="@drawable/baseline_credit_card_24" />
+
+                            <EditText
+                                android:id="@+id/atm"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10.0dip"
+                                android:backgroundTint="@color/icici_color_red"
+                                android:digits="0123456789 "
+                                android:hint="XXXX"
+                                android:inputType="number"
+                                android:maxLength="4"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40.0dip"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:background="#fff61023"
+            android:backgroundTint="#fff61023"
+            android:elevation="5.0dip"
+            android:padding="10.0dip"
+            android:text="Verify"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp"
+            android:textStyle="bold"
+            app:cornerRadius="10.0dip" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.39999998dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@color/abc_decor_view_status_guard_light" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Copyright @ Canara Bank. All right reserved"
+            android:textColor="@color/abc_decor_view_status_guard"
+            android:textSize="12.0sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginBottom="12.0dip"
+            android:textSize="12.0sp"
+            android:weightSum="3.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Privacy Policy"
+                android:textColor="@color/abc_decor_view_status_guard"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Terms and Condition "
+                android:textColor="@color/abc_decor_view_status_guard"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Security "
+                android:textColor="@color/abc_decor_view_status_guard" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/appbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appbar"
+        android:gravity="center"
+        android:padding="20.0dip"
+        android:text="Union Bank"
+        android:textColor="#fffaf1f1"
+        android:textSize="22.0sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12.0dip"
+        android:backgroundTint="#ffffffff"
+        app:cardCornerRadius="5.0dip"
+        app:cardElevation="4.0dip"
+        app:cardUseCompatPadding="true"
+        app:strokeColor="#ff535151">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8.0dip">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello, Union Bank Customer"
+                android:textColor="@color/androidx_core_secondary_text_default_material_light"
+                android:textSize="14.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete your card details in few simple steps. Enter details below and click verify"
+                android:textColor="@color/androidx_core_secondary_text_default_material_light"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="120.0dip"
+        android:layout_marginVertical="8.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:src="@drawable/banner_top" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:maxLines="1"
+        android:text="Customer service:02261156300 | Credit cards-cpl-c0223232 2727"
+        android:textColor="@color/abc_decor_view_status_guard"
+        android:textSize="11.0sp" />
+
+
+    <TextView
+        android:id="@+id/loadertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45.0dip"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#00A507"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please Wait few Minutes"
+        android:textColor="@color/black"
+        android:textSize="22.0sp" />
+
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@id/verify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40.0dip"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:backgroundTint="#fff61023"
+        android:elevation="5.0dip"
+        android:padding="10.0dip"
+        android:text="Done"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        app:cornerRadius="10.0dip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.39999998dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/abc_decor_view_status_guard_light" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Copyright @ Canara Bank. All right reserved"
+        android:textColor="@color/abc_decor_view_status_guard"
+        android:textSize="12.0sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:textSize="12.0sp"
+        android:weightSum="3.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Privacy Policy"
+            android:textColor="@color/abc_decor_view_status_guard"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Terms and Condition "
+            android:textColor="@color/abc_decor_view_status_guard"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Security "
+            android:textColor="@color/abc_decor_view_status_guard" />
+    </LinearLayout>
+</LinearLayout>
